@@ -1,0 +1,19 @@
+# Ignore virtual environment
+face_sentimentenv/
+venv/
+.env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log

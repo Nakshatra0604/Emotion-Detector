@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Names</title>
+</head>
+<body>
+    <h2>Enter Names for Each Person</h2>
+    <form action="/start_detection" method="post">
+        {% for i in range(num_people) %}
+            <label>Person {{ i+1 }}:</label>
+            <input type="text" name="person{{ i }}" required><br><br>
+        {% endfor %}
+        <button type="submit">Start Detection</button>
+    </form>
+</body>
+</html>
